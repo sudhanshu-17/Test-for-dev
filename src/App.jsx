@@ -55,8 +55,9 @@ const App = () => {
       />
       <div className='relative z-10'>
         <UpdateFollower
+            style={{borderRadius: "10px !important"}}
         mouseOptions={{
-          backgroundColor: "white",
+          backgroundColor: "pink",
           zIndex: 10,
           followSpeed: 1.5,
         }}

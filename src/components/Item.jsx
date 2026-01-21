@@ -5,7 +5,7 @@ const Item = ({product}) => {
   return (
     <div className='group relative'>
       <Link to={`/products/${product?.id}`}>
-      <div className='aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-800/50 lg:aspect-none grup-hover:opacity-75 lg:h-80 h-96 border border-gray-700/50'>
+      <div className='card-box aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-800/50 lg:aspect-none grup-hover:opacity-75 lg:h-80 h-96 border border-gray-700/50  transition-transform duration-300 ease-in-out hover:scale-110'>
         <img src={product?.image} alt={product?.name} className='h-full w-full object-cover object-center lg:h-full lg:w-full' />
       </div>
       </Link>
